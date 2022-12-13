@@ -1,7 +1,7 @@
-
-let homescore =0
-document.getElementById("home-score").innerText = homescore
-console.log (homescore)
+Var homescore =0
+let homescoretotal =
+document.getElementById("home-score")
+console.log (homescoretotal)
 
 
 function increaseHomeScoreOne() {
@@ -9,5 +9,5 @@ function increaseHomeScoreOne() {
 
   console.log (homescore)
   
-  homescore.textContent = homescore 
+  homescoretotal.textContent = homescore 
 }
