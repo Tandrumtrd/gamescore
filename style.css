@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: darkblue;
+}
+.container { 
+  display: flex;
+  justify-content: space-around;
+  background-color: darkblue;
+  color: white;
+}
+.score {
+  color: red;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  
+}
+.btn {
+  background-color: transparent;
+  color: gray;
+  border: solid gray;
+  border-radius: 5px
+}
